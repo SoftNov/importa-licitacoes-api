@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repository\VinculoRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.15" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\comercial.business.Domain\comercial.business.Domain.csproj" />
+    <ProjectReference Include="..\comercial.business.Domain\comercial.business.Domain.csproj" />
+    <ProjectReference Include="..\comercial.business.Domain\comercial.business.Domain.csproj" />
+    <ProjectReference Include="..\comercial.business.Utility\comercial.business.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

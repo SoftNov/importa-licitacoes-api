@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="43.14.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\comercial.business.Domain\comercial.business.Domain.csproj" />
+    <ProjectReference Include="..\comercial.business.Repository\comercial.business.Repository.csproj" />
+    <ProjectReference Include="..\comercial.business.Domain\comercial.business.Domain.csproj" />
+    <ProjectReference Include="..\comercial.business.Repository\comercial.business.Repository.csproj" />
+    <ProjectReference Include="..\comercial.business.Utility\comercial.business.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
